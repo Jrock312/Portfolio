@@ -52,7 +52,6 @@
 }
 
 body  {
-  background-image: url("background.jpg");
   background-color: #cccccc;
 }
 h1 {
@@ -62,7 +61,7 @@ h1 {
   margin-left: 15px; 
 }
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 2.5rem;  
@@ -75,4 +74,35 @@ h2 {
   font-weight: 600;
   margin-left: 15px; 
   text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #cccccc;
+  padding: 10px;
+  align-content: center;
+  margin-bottom: 50px;
 }
