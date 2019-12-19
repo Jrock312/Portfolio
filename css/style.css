@@ -54,12 +54,14 @@
 body  {
   background-color: #cccccc;
 }
+
 h1 {
   margin-top: 15px;
   font-size: xx-large;
   font-weight: 600;
   margin-left: 15px; 
 }
+
 #footer {
   position: fixed;
   bottom: 0;
@@ -68,6 +70,7 @@ h1 {
   background-color: gray;
   text-align: center;
 }
+
 h2 {
   margin-top: 15px;
   font-size: xx-large;
@@ -75,6 +78,15 @@ h2 {
   margin-left: 15px; 
   text-align: center;
   background-color: whitesmoke;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: large;
+  font-weight: 600;
+  margin-left: 15px; 
+  text-align: center;
+  background-color: #cccccc;
 }
 
 input[type=text], select, textarea {
@@ -98,15 +110,17 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
+
 .container {
-  width: 50%;
+  margin-left: 30px;
+  width: 33%;
   border-radius: 5px;
   background-color: #cccccc;
   padding: 10px;
   align-content: center;
   margin-bottom: 50px;
 }
+
 .portimage {
   width: 300px;
   height: 300px;
@@ -115,7 +129,7 @@ input[type=submit]:hover {
   color: blue;
 }
 
-/* Bottom left text */
+
 .Centered {
   position: absolute;
   top: 50%;
