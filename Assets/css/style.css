@@ -1,10 +1,15 @@
+header{
+  background-color: #ffffff;
+}
 .topnav {
-  background-color:whitesmoke;
+  
+  background-color:#ffffff;
   overflow: hidden;
   
 }
 
 .topnav a {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   float: right;
   color: black;
   text-align: center;
@@ -15,21 +20,17 @@
 }
 
 .topnav a:hover {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ddd;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #4aaaa5;
   color: white;
 }
 
-  #main-bio,
-#bio-image,
-#navigation {
-  float: left;
-  
-}
 
 .main-bio {
   width: 70%;
@@ -52,23 +53,28 @@
 }
 
 body  {
-  background-color: #cccccc;
+  background-image: url(../Images/spikes.png);
 }
 
 h1 {
-  margin-top: 15px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: white;
+  margin-left: 75px;
+  float: left;
+  background-color: #4aaaa5;
   font-size: xx-large;
   font-weight: 600;
   margin-left: 15px; 
+  padding-bottom: 10px;
 }
 
-#footer {
+footer {
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;  
-  background-color: gray;
+  background-color: #666666;
   text-align: center;
+  height: 2.5rem;  
 }
 
 h2 {
@@ -77,16 +83,22 @@ h2 {
   font-weight: 600;
   margin-left: 15px; 
   text-align: center;
-  background-color: whitesmoke;
+  border-bottom: 8px;
+  border-color: #4aaaa5;
+   
 }
 
 h3 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
   margin-top: 15px;
   font-size: large;
   font-weight: 600;
   margin-left: 15px; 
   text-align: center;
-  background-color: #cccccc;
+}
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
 }
 
 input[type=text], select, textarea {
@@ -99,7 +111,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #4aaaa5;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -107,33 +119,33 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #4aaaa5;
 }
 
 
 .container {
   margin-left: 30px;
-  width: 33%;
+  width: 40%;
   border-radius: 5px;
-  background-color: #cccccc;
   padding: 10px;
   align-content: center;
   margin-bottom: 50px;
 }
+​.PortCont {
+  float: left;
+  width: 33%;
+  position: relative;
+  font-family: Arial;
+}
 
-.portimage {
-  width: 300px;
-  height: 300px;
-  position: absolute;
+.text-block {
+  width: 33%;
+  position: relative;
+  bottom: 50px;
+  background-color: #4aaaa5;
+  color: white;
   text-align: center;
-  color: blue;
+  height: 15px;
+  padding-bottom: 10px;
+  padding-top: 10;
 }
-
-
-.Centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
