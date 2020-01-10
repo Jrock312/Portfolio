@@ -56,6 +56,14 @@ body  {
   background-image: url(../Images/spikes.png);
 }
 
+@media screen and (max-width: 768px) {
+  em {color: white;}
+  h2{background-color: white;}
+  body {
+    background-image: url(../Images/eternal-seconds-WY5ulFF5wOY-unsplash.jpg)}
+  }
+
+
 h1 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   color: white;
